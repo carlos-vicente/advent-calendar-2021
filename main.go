@@ -25,9 +25,15 @@ func main() {
 	// }
 	// fmt.Printf("Day 2 Challenge 1: %d\n", d2c1)
 
-	d2c2, err := challenges.Day2Challenge2()
+	// d2c2, err := challenges.Day2Challenge2()
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// fmt.Printf("Day 2 Challenge 2: %d\n", d2c2)
+
+	d3c1, err := challenges.Day3Challenge1()
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("Day 2 Challenge 2: %d\n", d2c2)
+	fmt.Printf("Day 3 Challenge 1: %d\n", d3c1)
 }
